@@ -1,0 +1,33 @@
+   a {
+       text-decoration: none;
+   }
+
+   #container {
+       display: flex;
+   }
+
+   #container>div {
+       border: 1px solid red;
+       min-height: 90vh;
+   }
+
+   #sidebar {
+       flex: 1;
+   }
+
+   #main>div {
+       display: flex;
+       align-items: flex-start;
+       justify-content: center;
+       width: 97%;
+       padding: 19px 23px;
+   }
+
+   #sidebar ul li {
+       list-style: none;
+   }
+
+   img {
+       width: 50%;
+       height: auto;
+   }

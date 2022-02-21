@@ -1,0 +1,17 @@
+  #main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+      grid-column-gap: 10px;
+      width: fit-content;
+      padding: 20px 3px;
+  }
+
+  #main>div {
+      border: 1px solid red;
+      padding: 13px 17px;
+  }
+
+  img {
+      width: 100%;
+      height: auto;
+  }

@@ -1,0 +1,34 @@
+    a {
+        text-decoration: none;
+    }
+
+    #container {
+        display: flex;
+    }
+
+    #container>div {
+        border: 1px solid red;
+        min-height: 90vh;
+    }
+
+    #sidebar {
+        flex: 1;
+    }
+
+    #main>div {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 97%;
+        padding: 19px 21px;
+        border: 1px solid red;
+    }
+
+    #main>div p {
+        margin-left: 15px;
+    }
+
+    img {
+        width: 50%;
+        height: auto;
+    }
